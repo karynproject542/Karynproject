@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Karynproject Hacker Web</title>
+  <style>
+    body {
+      margin: 0;
+      overflow-x: scroll;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: monospace;
+      color: #00ff00;
+    }
+    .terminal {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      margin: 50px;
+      border: 2px solid #00ff00;
+      border-radius: 10px;
+      width: 1000px;
+      overflow-x: auto;
+    }
+    h1 {
+      color: #00ff00;
+      text-shadow: 0 0 5px #00ff00;
+    }
+    #logo {
+      width: 150px;
+      margin: 0 auto;
+      display: block;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body onload="document.getElementById('voice').play()">
+  <audio id="voice" autoplay>
+    <source src="Hai namaku Karynproj.m4a" type="audio/mp4">
+    Browser tidak mendukung audio.
+  </audio>
+
+  <img id="logo" src="logo.png" alt="Karynproject">
+  <div class="terminal">
+    <h1>Selamat Datang di Karynproject</h1>
+    <p>📡 Mengakses informasi perangkat...</p>
+    <p>🧠 Menjalankan sistem virtual...</p>
+    <p>💻 Website ini milik <strong>Karynproject</strong>. Akses kamu sedang direkam.</p>
+    <p>🎧 Suara: “Hai, namaku Karynproject. Kamu sedang berada di website milik Karynproject...”</p>
+  </div>
+</body>
+</html>
